@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="styles formulario.css">
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+
+<body>
+    <img src="C:\Users\yesia\Desktop\Cv\iconos.png" alt="iconos" width="20px" height="90px"/> 
+   
+   
+    <div class="box-contacto">
+        <h1>Contacto</h1>
+        <p><i> (55) 1234-5678 <br>
+        catalinaestevez@gmail.com <br>
+        Calle Cualquiera 123, Cualquier lugar</i></p>
+    </div>
+
+        <fieldset style="width:50%; margin-left: 25%">
+            <legend>FORMULARIO DE CONTACTO</legend>
+            <form action="/action_page.php" onsubmit="myFunction()"><br>
+                <label for='nombre'>Nombre Completo: </label> 
+                <br>
+                <input type="text" id="nombre" name=nombre size="30px" placeholder="Nombre Completo"required> 
+                <br><br>
+    
+                <label for='correo electronico'>Correo Electrónico: </label> 
+                <br>
+                <input type="email" id="email" name=correoelectronico size="30px" placeholder="ejemplo@hotmail.com" required> 
+                <br><br>
+    
+                <label for='telefono celular'>Tel. Celular: </label> 
+                <br>
+                <input type="int" id="telefono celular" name=telefonocelular size="30px" placeholder="Tel. Celular"required> 
+                <br><br>
+    
+                <label for='asunto'>Asunto: </label> 
+                <br>
+                <input type="text" id="asunto" name=asunto size="30px" placeholder="Asunto"required> 
+                <br><br>
+
+                <label for='mensaje'>Mensaje </label> 
+                <br>
+                <input type="text" id="mensaje" name=mensaje size="30px" placeholder="Mensaje"required> 
+                <br><br>
+            
+                <input type ="submit" value= "ENVIAR">
+    
+            </form>
+        </fieldset>    
+ 
+    <a href="index.html" >Volver al Inicio</a>
+
+</body>
+</html>

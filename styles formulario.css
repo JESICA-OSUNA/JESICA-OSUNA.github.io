@@ -1,0 +1,61 @@
+body{
+    margin-top: 60px;
+    background-color:rgb(230, 230, 230);
+}
+
+
+img {
+    float:left;
+    margin-left: 450px;
+    margin-top: 140px;
+    padding-right: 10px;
+  }
+
+.box-contacto{
+    background-color:#e8cfc1;
+    text-align: justify;
+    padding: 45px;
+    margin:60px;
+    border-radius: 30px;
+}
+
+h1{
+    color:#523e27;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    text-decoration:underline;
+}
+
+p {
+    color:#523e27;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+
+}
+
+form{   
+    text-align: center;
+    background-color:#e8cfc1;
+    border-radius: 30px;
+}
+
+
+a:link, a:visited {
+    background-color:#e8cfc1;
+    color: rgb(25, 18, 218);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top:100px ;
+    margin-left: 48%;
+    box-shadow: 6px 6px 6px #2b130f;
+}
+      
+a:hover, a:active {
+    background-color:#e8cfc1;
+    transform: scale(1.05,1.05);
+}
+
+    
+   
